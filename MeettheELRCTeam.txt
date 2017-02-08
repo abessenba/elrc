@@ -1,0 +1,87 @@
+<div class="grid">
+<div class="col span2">
+<p><img alt="Willie Burgess Picture" src="https://stemedhub.org/groups/elrc/File:0002Burgess.jpg" style="width:100px;" /></p>
+</div>
+<div class="col span8 omega">
+<h3>Wilella Burgess - Director</h3>
+<p>Role - for vision, strategic planning, internal and external partnership development, project ideation and initiation, research, evaluation, and center management.</p>
+<p>View Willie's <a href="https://stemedhub.org/members/1144/profile">profile</a></p>
+</div>
+</div>
+<p><hr class="style1"></p>
+
+<div class="grid">
+<div class="col span8">
+<h3>Loran Carleton Parker - Associate Director and Senior Evaluation and Research Associate</h3>
+<p>Role - Formal and informal education research design and theoretical frameworks for educational research and evaluation. Project ideation and development.</p>
+<p>View Loran's <a href="https://stemedhub.org/members/1482/profile">profile</a></p>
+</div>
+<div class="col span2 omega">
+<img alt="Loran Parker Picture" src="https://stemedhub.org/groups/elrc/File:0003Parker.jpg" style="width:100px;" />
+</div>
+</div>
+
+<p><hr class="style1"></p>
+
+<div class="grid">
+<div class="col span2">
+<img alt="Weiling Li Picture" src="https://stemedhub.org/groups/elrc/File:Weiling-Li.jpg" style="width: 100px;" /></div>
+<div class="col span8 omega">
+<h3>Weiling Li - Evaluation and Research Associate</h3>
+<p>Role - Quantitative evaluation, RCT, quasi and non-experimental design, What Works Clearninghouse.</p>
+<p>View Weiling's <a href="https://stemedhub.org/members/2839/profile">profile</a></p>
+</div>
+</div>
+
+<p><hr class="style1"></p>
+
+<div class="grid">
+<div class="col span8">
+<h3>Evaluation and Research Postdoctoral Associate - Lindley McDavid</h3>
+<p>Role - Education research and evaluation specializing in psychological constructs and assessment./p>
+<p>View Lindley's <a href="https://stemedhub.org/members/2946/profile">profile</a></p>
+</div>
+<div class="col span2 omega">
+	<img alt="Lindley McDavid Picture" src="https://stemedhub.org/groups/elrc/File:Lindley-McDavid.jpg" style="width: 100px;" />
+</div>
+</div>
+
+<p><hr class="style1"></p>
+
+<div class="grid">
+	<div class="col span2">
+		<img alt="Ann Bessenbacher picture" src="https://stemedhub.org/groups/elrc/File:0005Bessenbacher.jpg" style="width:100px;" />
+	</div>
+	<div class="col span8 omega">
+		<h3>Research Associate and Data Scientist - Ann Bessenbacher</h3>
+		<p>Role - Data management, evaluation, STEMEdhub.org administrator, project management</p>
+		View Ann's <a href="https://stemedhub.org/members/1011/profile">profile</a>
+	</div>
+</div>
+
+<p><hr class="style1"></p>
+
+<div class="grid">
+	<div class="col span8">
+		<h3>Research Associate - Lisa Kirkham</h3>
+		<p>Role - K-12 education and administration, partner development, project management.</p>
+		<p>View Lisa's <a href="https://stemedhub.org/members/1034/profile">profile</a> </p>
+	</div>
+	<div class="col span2 omega">
+		<img alt="" src="https://stemedhub.org/groups/elrc/File:0063DLRCevent14.jpg" style="width: 100px;" />
+	</div>
+</div>
+
+<p><hr class="style1"></p>
+
+<div class="grid">
+	<div class="col span2">
+		<img alt="" src="https://stemedhub.org/groups/elrc/File:0006Warner.jpg" style="width: 100px;" />
+	</div>
+	<div class="col span8 omega">
+		<h3>Administrative Assistant - Laura Warner</h3>
+		<p>Role - IRB librarian, evaluation support, Web master, scheduling.</p>
+		<p>View Laura's <a href="http://stemedhub.org/members/1525/profile">profile</a> </p>
+	</div>
+</div>	
+
