@@ -1,0 +1,597 @@
+/**
+ * Basic Template - Main Styles
+ *
+ * Template used for Special Groups. Will now be auto-created
+ * when admin switches group from type HUB to type Special.
+ *
+ * @author 		Ilya Shunko
+ * @copyright	September 2015
+*/
+html {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: inherit;
+  -moz-box-sizing: inherit;
+  box-sizing: inherit;
+}
+h2 {
+  font-family: 'Oswald', sans-serif;
+  font-weight: 700;
+  color: #564f4c;
+  text-transform: uppercase;
+}
+h3 {
+  font-family: 'alegreyaregular', Georgia, "Times New Roman", Times, serif;
+  font-weight: normal;
+  font-size: 2em;
+  line-height: 1.2em;
+}
+a,
+a:link,
+a:active,
+a:visited {
+  color: #339933;
+}
+a:hover,
+a:link:hover,
+a:active:hover,
+a:visited:hover {
+  border-bottom: 1px dotted;
+}a.btn, .btn {color: #FFF;}icon-config config.btn { background: #339933;}a.icon {color: #339933;background: #339933;}
+/* ********************************** */
+.contain {
+  padding-right: 20px;
+  padding-left: 40px;
+  max-width: 1400px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.contain.contain-ok {
+  position: relative;
+}body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+body a:hover {
+  color: #339933;
+}body hr {color: #339933;height: 2px;background: #339933;width: 80%;}hr.style1 {color: #339933;height: 1px;background: #339933;width: 80%;}
+#group-body {
+  background: #5b5b5b;
+  min-width: inherit;
+}
+.super-group-body-wrap {
+  font-family: 'latoregular';
+  position: relative;
+  overflow: hidden;
+  color: #615f5f;
+}
+.super-group-body {
+  background: #FFF;
+}
+/* Header */
+.super-group-header-wrap {
+  background: #fff;
+  border-bottom: 2px solid #efefef;
+}
+@media (min-width: 900px) {
+  .super-group-header-wrap {
+    border-bottom: none;
+  }
+}
+.super-group-header {
+  margin: 0;
+  width: 100%;
+  text-align: center;
+  border-bottom: 1px solid #e4e4e4;
+}
+@media (min-width: 900px) {
+  .super-group-header {
+    position: relative;
+    border-bottom: none;
+  }
+}
+.super-group-header .logo-contain {
+  padding: 2em 0 2.6em;
+}
+.super-group-header a.logo {
+  border: none;
+  text-decoration: none;
+  font-family: 'montserratregular';
+  color: #57504D;
+}
+.super-group-header a.logo img,
+.super-group-header a.logo .logo-svg {
+  width: 30%;
+  max-width: 150px;
+  display: block;
+  margin: 0 auto;
+}
+.super-group-header a.logo p {
+  text-align: left;
+  display: inline-block;
+  font-size: 1.6em;
+  line-height: 0.8em;
+  margin-top: -0.7em;
+  margin-bottom: 0;
+  padding-left: 1.6em;
+  max-width: 400px;
+}
+@media (min-width: 500px) {
+  .super-group-header a.logo p {
+    font-size: 1.7em;
+  }
+}
+@media (min-width: 700px) {
+  .super-group-header a.logo p {
+    font-size: 1.8em;
+  }
+}
+@media (min-width: 900px) {
+  .super-group-header a.logo p {
+    font-size: 2em;
+  }
+}
+.super-group-header a.logo p em {
+  display: inline-block;
+  margin-top: 0.6em;
+  font-family: 'montserratregular';
+  font-weight: normal;
+  text-transform: uppercase;
+  font-style: normal;
+  color: #33cc33;
+  font-size: 0.5em;
+  line-height: 1.3em;
+}
+@media (max-width: 899px) {
+  .super-group-header .menu-container {
+    -moz-transition: all 0.6s ease-in-out;
+    transition: all 0.6s ease-in-out;
+    position: absolute;
+    top: 0;
+    right: -100%;
+    bottom: 0;
+    background: #1c1d1e;
+    z-index: 900;
+    overflow: auto;
+  }
+  .super-group-header .menu-container.open {
+    right: 0;
+  }
+  .super-group-header .menu-container .contain {
+    padding-left: 40px;
+    padding-right: 100px;
+  }
+}
+.super-group-header nav {
+  text-align: left;
+  padding-top: 1em;
+  padding-bottom: 1em;
+  background: #efefef;
+}
+.super-group-header nav ul,
+.super-group-header nav li {
+  list-style: none;
+  margin: 0;
+}
+.super-group-header nav a {
+  text-transform: uppercase;
+  font-size: 0.9em;
+  color: #000;
+}
+.super-group-header nav a:hover {
+  text-decoration: none;
+  border: none;
+  color: #33cc33;
+}
+@media (min-width: 900px) {
+  .super-group-header nav {
+    position: absolute;
+    top: 0;
+    right: 0;
+    background: none;
+    border-bottom: 1px solid #c7c7c7;
+    padding-left: 0;
+  }
+  .super-group-header nav ul,
+  .super-group-header nav li {
+    display: inline-block;
+  }
+  .super-group-header nav li {
+    margin-left: 1em;
+  }
+  .super-group-header nav li:first-of-type {
+    margin-left: 0;
+  }
+}
+/* Burger */
+.c-hamburger {
+  display: none;
+}
+@media (max-width: 899px) {
+  .c-hamburger {
+    display: block;
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+    width: 31px;
+    height: 31px;
+    font-size: 0;
+    text-indent: -9999px;
+    appearance: none;
+    box-shadow: none;
+    border-radius: none;
+    border: none;
+    cursor: pointer;
+    transition: background 0.3s;
+    z-index: 990;
+  }
+  .c-hamburger:focus {
+    outline: none;
+  }
+  .c-hamburger span {
+    display: block;
+    position: absolute;
+    top: 15.5px;
+    left: 5px;
+    right: 5px;
+    height: 1px;
+    background: #1e1e1e;
+  }
+  .c-hamburger span::before,
+  .c-hamburger span::after {
+    position: absolute;
+    display: block;
+    left: 0;
+    width: 100%;
+    height: 1px;
+    background-color: #1e1e1e;
+    content: "";
+  }
+  .c-hamburger span::before {
+    top: -7px;
+  }
+  .c-hamburger span::after {
+    bottom: -7px;
+  }
+  .c-hamburger--htra {
+    background-color: #efefef;
+  }
+  .c-hamburger--htra span {
+    transition: transform 0.3s;
+  }
+  .c-hamburger--htra span::before {
+    transform-origin: top left;
+    transition: transform 0.3s, width 0.3s, top 0.3s;
+  }
+  .c-hamburger--htra span::after {
+    transform-origin: bottom left;
+    transition: transform 0.3s, width 0.3s, bottom 0.3s;
+  }
+  /* active state, i.e. menu open */
+  .c-hamburger--htra.is-active span {
+    transform: rotate(180deg);
+  }
+  .c-hamburger--htra.is-active span::before,
+  .c-hamburger--htra.is-active span::after {
+    width: 50%;
+  }
+  .c-hamburger--htra.is-active span::before {
+    top: 0;
+    transform: translateX(-1px) translateY(0.5px) rotate(-45deg);
+  }
+  .c-hamburger--htra.is-active span::after {
+    bottom: 0;
+    transform: translateX(-1px) translateY(-0.5px) rotate(45deg);
+  }
+}
+/* Menu */
+.super-group-menu-wrap {
+  background: #1c1d1e;
+}
+.super-group-menu {
+  margin: 0;
+  width: 100%;
+  text-align: left;
+}
+.super-group-menu a {
+  -moz-transition: all 0.1s ease-in-out;
+  transition: all 0.1s ease-in-out;
+  color: #fff;
+}
+.super-group-menu a:hover {
+  color: #33cc33;
+  border: none;
+}
+@media (min-width: 900px) {
+  .super-group-menu > ul > li {
+    position: relative;
+  }
+  .super-group-menu > ul > li:after {
+    height: 100%;
+    width: 1px;
+    background: #6d6d6d;
+    content: '';
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+  }
+  .super-group-menu > ul > li:last-of-type:after {
+    display: none;
+  }
+}
+.super-group-menu ul {
+  margin: 0;
+  list-style: none;
+}
+.super-group-menu ul li {
+  list-style: none;
+  text-align: left;
+  position: relative;
+}
+.super-group-menu ul li a {
+  font-family: 'latoregular';
+  text-transform: uppercase;
+  font-size: 0.9em;
+}
+.super-group-menu ul li.hasmeta a {
+  padding-right: 30px !important;
+}
+.super-group-menu ul li.hasmeta .meta {
+  color: rgba(255, 255, 255, 0.5);
+  background: rgba(255, 255, 255, 0.15);
+  padding: 0 4px;
+  font-size: 10px;
+  border-radius: 2px;
+}
+@media (min-width: 900px) {
+  .super-group-menu ul li.hasmeta .meta {
+    position: absolute;
+    right: 1em;
+    top: 0.3em;
+  }
+}
+@media (min-width: 900px) {
+  .super-group-menu ul {
+    text-align: center;
+    margin: 0;
+    padding: 10px 0;
+    list-style: none;
+  }
+  .super-group-menu > ul li {
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    position: relative;
+  }
+  .super-group-menu > ul li .alrt {
+    display: none;
+  }
+  .super-group-menu > ul li a,
+  .super-group-menu > ul li.protected span {
+    display: block;
+    padding: 3px 15px;
+    color: #fff;
+    border: none;
+  }
+  .super-group-menu > ul li.protected span {
+    color: rgba(255, 255, 255, 0.5);
+  }
+  .super-group-menu > ul li.protected span:hover {
+    cursor: not-allowed;
+  }
+  .super-group-menu > ul > li > a:hover {
+    background: rgba(0, 0, 0, 0.15);
+  }
+  .super-group-menu > ul > li.active > a {
+    background: rgba(0, 0, 0, 0.3);
+  }
+  .super-group-menu > ul li.active .meta {
+    color: rgba(255, 255, 255, 0.8);
+  }
+  .super-group-menu ul ul {
+    position: absolute;
+    top: 100%;
+    left: -9999px;
+    min-width: 150px;
+    max-width: 250px;
+    z-index: 555;
+    background: #3C3C3C;
+    padding: 10px 0;
+    border-top: 10px solid #1c1d1e;
+    text-align: left;
+  }
+  .super-group-menu ul ul ul {
+    margin-left: 100%;
+    top: 0px;
+  }
+  .super-group-menu li:hover > ul {
+    left: 0px;
+  }
+  .super-group-menu ul ul li {
+    float: none;
+  }
+  .super-group-menu ul ul li a {
+    padding: 5px 15px;
+    font-size: 12px;
+    color: #efefef;
+  }
+  .super-group-menu ul ul li a:before {
+    content: '\203A';
+    font-family: 'Fontcons';
+    margin-right: 5px;
+    font-size: 10px;
+  }
+}
+/* Toolbar */
+.super-group-toolbar {
+  position: absolute;
+  top: 18px;
+  right: 0;
+}
+.super-group-toolbar > ul {
+  margin: 0 !important;
+}
+.super-group-toolbar .btn-group > a,
+.super-group-toolbar .btn-group > .dropdown-toggle {
+  border-color: #555 !important;
+  -webkit-transition: border-color 0.6s ease-in-out;
+}
+.super-group-toolbar:hover .btn-group > a,
+.super-group-toolbar:hover .btn-group > .dropdown-toggle {
+  border-color: #000 !important;
+}
+.super-group-toolbar ul.dropdown-menu {
+  left: auto !important;
+  right: 0 !important;
+  font-size: 12px !important;
+}
+/* Content */
+.super-group-content-wrap {
+  margin: 0;
+  padding: 0;
+  min-height: 300px;
+}
+.super-group-content {
+  margin: 0;
+  padding: 4em 20px;
+  width: 100%;
+  position: relative;
+}
+.super-group-content > h2:first-child {
+  padding: 0;
+  margin: 0;
+  font-size: 2em;
+}
+.super-group-content #page_options {
+  right: 20px;
+  top: 0em;
+}
+.super-group-content h3.heading,
+.super-group-content .section-header {
+  display: none;
+}
+.super-group-content .section {
+  padding: 0 !important;
+  margin: 20px 0 !important;
+}
+/* Footer */
+.super-group-footer-wrap {
+  background: #373c3e;
+  padding: 0 20px;
+}
+.super-group-footer {
+  margin: 0;
+  width: 100%;
+  padding: 6em 0;
+  font-size: 11px;
+  color: #bbb;
+  text-align: center;
+}
+/* Member Adjustments */
+.group_members .aside .roles li {
+  overflow: hidden;
+}
+/* Wiki Adjustments */
+.group_wiki > h2 {
+  display: none;
+}
+/* Collections Adjustments */
+.group_collections p.overview,
+.group_collections fieldset.filters,
+.group_collections .sub-menu {
+  margin-top: 0 !important;
+}
+/* Login */
+.group_login > h2:first-child {
+  display: none;
+}
+/* -------------- Fonts ----------------- */
+/* ------------------------------- montserrat------------------------------ */
+@font-face {
+  font-family: 'montserratlight';
+  src: url('../fonts/montserrat/montserrat-light-webfont.eot');
+  src: url('../fonts/montserrat/montserrat-light-webfont.eot?#iefix') format('embedded-opentype'), url('../fonts/montserrat/montserrat-light-webfont.woff2') format('woff2'), url('../fonts/montserrat/montserrat-light-webfont.woff') format('woff'), url('../fonts/montserrat/montserrat-light-webfont.ttf') format('truetype'), url('../fonts/montserrat/montserrat-light-webfont.svg#montserratlight') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'montserratbold';
+  src: url('../fonts/montserrat/montserrat-bold-webfont.eot');
+  src: url('../fonts/montserrat/montserrat-bold-webfont.eot?#iefix') format('embedded-opentype'), url('../fonts/montserrat/montserrat-bold-webfont.woff2') format('woff2'), url('../fonts/montserrat/montserrat-bold-webfont.woff') format('woff'), url('../fonts/montserrat/montserrat-bold-webfont.ttf') format('truetype'), url('../fonts/montserrat/montserrat-bold-webfont.svg#montserratbold') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'montserratregular';
+  src: url('../fonts/montserrat/montserrat-regular-webfont.eot');
+  src: url('../fonts/montserrat/montserrat-regular-webfont.eot?#iefix') format('embedded-opentype'), url('../fonts/montserrat/montserrat-regular-webfont.woff2') format('woff2'), url('../fonts/montserrat/montserrat-regular-webfont.woff') format('woff'), url('../fonts/montserrat/montserrat-regular-webfont.ttf') format('truetype'), url('../fonts/montserrat/montserrat-regular-webfont.svg#montserratregular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'montserrathairline';
+  src: url('../fonts/montserrat/montserrat-hairline-webfont.eot');
+  src: url('../fonts/montserrat/montserrat-hairline-webfont.eot?#iefix') format('embedded-opentype'), url('../fonts/montserrat/montserrat-hairline-webfont.woff2') format('woff2'), url('../fonts/montserrat/montserrat-hairline-webfont.woff') format('woff'), url('../fonts/montserrat/montserrat-hairline-webfont.ttf') format('truetype'), url('../fonts/montserrat/montserrat-hairline-webfont.svg#montserrathairline') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'montserratblack';
+  src: url('../fonts/montserrat/montserrat-black-webfont.eot');
+  src: url('../fonts/montserrat/montserrat-black-webfont.eot?#iefix') format('embedded-opentype'), url('../fonts/montserrat/montserrat-black-webfont.woff2') format('woff2'), url('../fonts/montserrat/montserrat-black-webfont.woff') format('woff'), url('../fonts/montserrat/montserrat-black-webfont.ttf') format('truetype'), url('../fonts/montserrat/montserrat-black-webfont.svg#montserratblack') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+/* ------------------------------- lato ------------------------------- */
+@font-face {
+  font-family: 'latobold';
+  src: url('../fonts/lato/lato-bol-webfont.eot');
+  src: url('../fonts/lato/lato-bol-webfont.eot?#iefix') format('embedded-opentype'), url('../fonts/lato/lato-bol-webfont.woff') format('woff'), url('../fonts/lato/lato-bol-webfont.ttf') format('truetype'), url('../fonts/lato/lato-bol-webfont.svg#latobold') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'latohairline';
+  src: url('../fonts/lato/lato-hai-webfont.eot');
+  src: url('../fonts/lato/lato-hai-webfont.eot?#iefix') format('embedded-opentype'), url('../fonts/lato/lato-hai-webfont.woff') format('woff'), url('../fonts/lato/lato-hai-webfont.ttf') format('truetype'), url('../fonts/lato/lato-hai-webfont.svg#latohairline') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'latolight';
+  src: url('../fonts/lato/lato-lig-webfont.eot');
+  src: url('../fonts/lato/lato-lig-webfont.eot?#iefix') format('embedded-opentype'), url('../fonts/lato/lato-lig-webfont.woff') format('woff'), url('../fonts/lato/lato-lig-webfont.ttf') format('truetype'), url('../fonts/lato/lato-lig-webfont.svg#latolight') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'latoregular';
+  src: url('../fonts/lato/lato-reg-webfont.eot');
+  src: url('../fonts/lato/lato-reg-webfont.eot?#iefix') format('embedded-opentype'), url('../fonts/lato/lato-reg-webfont.woff') format('woff'), url('../fonts/lato/lato-reg-webfont.ttf') format('truetype'), url('../fonts/lato/lato-reg-webfont.svg#latoregular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'latoblack';
+  src: url('../fonts/lato/lato-bla-webfont.eot');
+  src: url('../fonts/lato/lato-bla-webfont.eot?#iefix') format('embedded-opentype'), url('../fonts/lato/lato-bla-webfont.woff') format('woff'), url('../fonts/lato/lato-bla-webfont.ttf') format('truetype'), url('../fonts/lato/lato-bla-webfont.svg#latoblack') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+/* ------------------------------- alegreya ------------------------------- */
+@font-face {
+  font-family: 'alegreyaregular';
+  src: url('../fonts/alegreya/alegreya-regular-webfont.eot');
+  src: url('../fonts/alegreya/alegreya-regular-webfont.eot?#iefix') format('embedded-opentype'), url('../fonts/alegreya/alegreya-regular-webfont.woff2') format('woff2'), url('../fonts/alegreya/alegreya-regular-webfont.woff') format('woff'), url('../fonts/alegreya/alegreya-regular-webfont.ttf') format('truetype'), url('../fonts/alegreya/alegreya-regular-webfont.svg#alegreya_scregular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
