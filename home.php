@@ -23,6 +23,7 @@ Document::addStyleSheet('https://fonts.googleapis.com/css?family=Oswald:700,400'
 Document::addScript($b . DS . 'assets/js/TweenMax.min.js');
 Document::addScript($b . DS . 'assets/js/main.js');
 Document::addScript($b . DS . 'assets/js/home.js');
+Document::addStyleSheet($b . DS . 'assets/css/main.css');
 Document::addStyleSheet($b . DS . 'assets/css/home.css');
 
 ?>
